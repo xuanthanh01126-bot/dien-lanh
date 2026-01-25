@@ -406,33 +406,73 @@
         </section>
     </main>
 
-    <footer id="contact" role="contentinfo" aria-label="Chân trang - Liên hệ">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h3>LIÊN HỆ</h3>
-                    <ul>
-                        <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 16A Đường 13, Khu phố 1, Hiệp Bình Chánh, TP. Thủ Đức</li>
-                        <li><i class="fas fa-phone" aria-hidden="true"></i> <strong><a href="tel:+84932602093" style="color:inherit">0932.602.093</a></strong></li>
-                        <li><i class="fas fa-clock" aria-hidden="true"></i> 8h00 - 21h00 (Cả tuần)</li>
-                    </ul>
-                </div>
+    <!-- Replace lines 409-435 with the block below -->
+<footer id="contact" role="contentinfo" aria-label="Chân trang - Liên hệ" style="background:linear-gradient(180deg,#0f1724,#0b1220); color:#e6eef9; padding:40px 0 24px;">
+  <div class="container" style="max-width:1100px; margin:0 auto; padding:0 16px;">
+    <div class="footer-grid" style="display:flex; flex-wrap:wrap; gap:24px; align-items:flex-start;">
+      <!-- Contact / Map -->
+      <div class="footer-col" style="flex:1; min-width:240px;">
+        <h3 style="color:#fff; margin-bottom:12px; font-size:18px;">LIÊN HỆ</h3>
+        <ul style="list-style:none; padding:0; margin:0; color:#cfe6ff;">
+          <li style="margin-bottom:10px;"><i class="fas fa-map-marker-alt" style="width:20px;color:#99c2ff"></i> 16A Đường 13, Khu phố 1, Hiệp Bình Chánh, TP. Thủ Đức</li>
+          <li style="margin-bottom:10px;"><i class="fas fa-phone" style="width:20px;color:#99c2ff"></i> <strong><a href="tel:+84932602093" style="color:inherit; text-decoration:none;">0932.602.093</a></strong></li>
+          <li style="margin-bottom:6px;"><i class="fas fa-clock" style="width:20px;color:#99c2ff"></i> 8h00 - 21h00 (Cả tuần)</li>
+        </ul>
 
-                <div class="footer-col">
-                    <h3>CAM KẾT</h3>
-                    <ul>
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Có mặt nhanh chóng</li>
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Báo giá trước khi làm</li>
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Bảo hành dài hạn</li>
-                    </ul>
-                </div>
+        <a href="https://maps.app.goo.gl/eb8iA9M7M1E5PG4EA" target="_blank" rel="noopener noreferrer" aria-label="Mở Google Maps vị trí Điện Lạnh Minh Tú" style="display:inline-block; margin-top:14px; text-decoration:none;">
+          <div style="display:flex; gap:12px; align-items:center;">
+            <img src="https://images.unsplash.com/photo-1503264116251-35a269479413?q=80&w=600&auto=format&fit=crop" alt="Bản đồ vị trí" style="width:140px; height:90px; object-fit:cover; border-radius:8px; box-shadow:0 8px 20px rgba(0,0,0,0.35);">
+            <div>
+              <div style="font-weight:700; color:#fff;">Xem chỉ đường</div>
+              <div style="font-size:13px; color:#cfe6ff;">Mở Google Maps</div>
             </div>
+          </div>
+        </a>
+      </div>
 
-            <div class="copyright">
-                &copy; <span id="year"></span> Điện Lạnh Minh Tú. Bản quyền nội dung thuộc về chủ sở hữu.
-            </div>
+      <!-- Commitments -->
+      <div class="footer-col" style="flex:1; min-width:240px;">
+        <h3 style="color:#fff; margin-bottom:12px; font-size:18px;">CAM KẾT</h3>
+        <ul style="list-style:none; padding:0; margin:0; color:#cfe6ff;">
+          <li style="margin-bottom:10px;"><i class="fas fa-check" style="width:20px;color:#99c2ff"></i> Có mặt nhanh chóng</li>
+          <li style="margin-bottom:10px;"><i class="fas fa-check" style="width:20px;color:#99c2ff"></i> Báo giá trước khi làm</li>
+          <li style="margin-bottom:10px;"><i class="fas fa-check" style="width:20px;color:#99c2ff"></i> Bảo hành dài hạn</li>
+        </ul>
+
+        <div style="margin-top:14px; background:rgba(255,255,255,0.03); padding:12px; border-radius:8px; color:#d9f0ff;">
+          <strong>Giờ làm việc</strong>
+          <p style="margin:6px 0 0; font-size:14px;">Từ 08:00 đến 21:00 — cả tuần, phục vụ ngay tại nhà.</p>
         </div>
-    </footer>
+      </div>
+
+      <!-- Social / Quick -->
+      <div class="footer-col" style="flex:1; min-width:220px;">
+        <h3 style="color:#fff; margin-bottom:12px; font-size:18px;">THEO DÕI & NHANH</h3>
+
+        <div style="display:flex; gap:10px; align-items:center; margin-bottom:12px;">
+          <a href="#" aria-label="Facebook" style="display:inline-flex; align-items:center; justify-content:center; width:38px; height:38px; background:#1b3b74; color:#fff; border-radius:8px; text-decoration:none;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Zalo" style="display:inline-flex; align-items:center; justify-content:center; width:38px; height:38px; background:#2d9bf0; color:#fff; border-radius:8px; text-decoration:none;">Z</a>
+          <a href="#" aria-label="YouTube" style="display:inline-flex; align-items:center; justify-content:center; width:38px; height:38px; background:#ff3b30; color:#fff; border-radius:8px; text-decoration:none;"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <nav aria-label="Liên kết nhanh">
+          <ul style="list-style:none; padding:0; margin:0; color:#cfe6ff;">
+            <li style="margin-bottom:8px;"><a href="#" style="color:inherit; text-decoration:none;">Trang chủ</a></li>
+            <li style="margin-bottom:8px;"><a href="#services" style="color:inherit; text-decoration:none;">Dịch vụ</a></li>
+            <li style="margin-bottom:8px;"><a href="#about" style="color:inherit; text-decoration:none;">Giới thiệu</a></li>
+            <li style="margin-bottom:8px;"><a href="#contact" style="color:inherit; text-decoration:none;">Liên hệ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div style="border-top:1px solid rgba(255,255,255,0.06); margin-top:20px; padding-top:16px; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center;">
+      <div style="color:#9fbce8; font-size:13px;">&copy; <span id="year"></span> Điện Lạnh Minh Tú. Bản quyền nội dung thuộc về chủ sở hữu.</div>
+      <div style="color:#9fbce8; font-size:13px; margin-top:8px;">Thiết kế đơn giản &amp; thân thiện — <span style="color:#ffb86b;">Sẵn sàng phục vụ</span></div>
+    </div>
+  </div>
+</footer>
+<!-- End replacement block -->
 
     <!-- Mobile CTA -->
     <a class="mobile-cta" href="tel:+84932602093" aria-label="Gọi thợ ngay 0932 602 093"><i class="fas fa-phone-volume" aria-hidden="true"></i> GỌI THỢ NGAY: 0932.602.093</a>
